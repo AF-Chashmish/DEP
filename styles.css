@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("img.6.PNG");
+}
+.queen{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: midnightblue;
+}
+nav{
+    display: block;
+    width: 70%;
+    margin: auto;
+    padding: 25px 0;
+    align-items: self-start;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: solid;
+    color: #8ffb36;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: red;
+}
+.princess{
+    margin-left: 7%;
+    margin-top: 7%;    
+}
+.princess h1{
+    font-size: 50px;
+    color: rgb(210, 8, 85);
+    margin-bottom: 20px;
+}
+span{
+    color: rgb(5, 247, 239);
+}
+.princess p{
+    color: #ffffff;
+    line-height: 30px;
+}
+.princess a{
+    background-color: darkgray;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: orangered;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.edu{
+    margin-left: 11%;
+    margin-top: 3%;    
+}
+.edu h1{
+    font-size: 50px;
+    color: rgb(210, 8, 85);
+    margin-bottom: 7px;
+}
+.edu h2{
+    font-size: 30px;
+    color: rgb(5, 247, 239);
+    margin-bottom: 7px;
+}
+.edu ul li{
+    display: list-item;
+    list-style: circle;
+    color: fuchsia;
+    margin: 7px 7px;
+}
+.skill{
+    margin-left: 11%;
+    margin-top: 3%;    
+}
+.skill h2{
+    font-size: 30px;
+    color: rgb(210, 8, 85);
+    margin-bottom: 25px;    
+}
+.skill h4{
+    color: whitesmoke;
+    margin: 20px 20px;   
+}
+.skill ul li{
+    display: list-item;
+    list-style: circle;
+    color: fuchsia;
+    margin: 20px 20px;   
+}
+.project{
+    margin-left: 11%;
+    margin-top: 3%;    
+}
+.project h2{
+    font-size: 30px;
+    color: rgb(210, 8, 85);
+    margin-bottom: 25px;    
+}
+.project ul li{
+    display: list-item;
+    list-style: circle;
+    color: white;
+    margin: 20px 20px;   
+}
+.hobby{
+    margin-left: 11%;
+    margin-top: 3%;    
+}
+.hobby h2{
+    font-size: 30px;
+    color: rgb(210, 8, 85);
+    margin-bottom: 25px;    
+}
+.hobby p{
+    color: #ffffff;
+    line-height: 30px;
+}
+.hobby ul li{
+    display: list-item;
+    list-style: circle;
+    color: fuchsia;
+    margin: 20px 20px;   
+}
